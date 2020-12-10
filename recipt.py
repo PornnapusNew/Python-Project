@@ -24,16 +24,16 @@ list1[3]=list1[3][:-1]
 list1[4]=list1[4][:-1]
 
 p='''
-********* FIND MY LOCKER - The best locker service *********
+********* FIND MY LOCKER - The best locker service **********
 ********************* BANGKOK,  THAILAND *******************
-***************** SERVING    GUEST   SINCE *****************
-**********************    ###2020###       *****************
-************************************************************
-NAME-%s
-ADDRESS-%s
-MOBILE NO.-%s
-YOUR TOTAL BILL IS -%s
-YOUR ROOM NUMBER IS %s    
+***************** SERVING    GUEST   SINCE *******************
+**********************    ###2020###       **********************
+****************************************************************
+NAME :  %s
+ADDRESS :  %s
+MOBILE NO. :  %s
+YOUR TOTAL BILL IS :  %s
+YOUR ROOM NUMBER IS  %s    
      
      
      
@@ -55,6 +55,8 @@ class receipt:
         _compcolor = '#d9d9d9' # X11 color: 'gray85'
         _ana1color = '#d9d9d9' # X11 color: 'gray85'
         _ana2color = '#d9d9d9' # X11 color: 'gray85'
+        font14 = "-family {Segoe UI} -size 14 -weight normal -slant "  \
+            "roman -underline 0 -overstrike 0"
 
         root.geometry("800x800")
         root.title("RECEIPT")
@@ -64,6 +66,7 @@ class receipt:
 
         self.Label1 = tk.Label(root)
         self.Label1.configure(background="#d9d9d9")
+        self.Label1.configure(font = font14)
         self.Label1.place(relx=0, rely=0, height=800, width=800)
         self.Label1.configure(disabledforeground="#a3a3a3")
         self.Label1.configure(foreground="#000000")
