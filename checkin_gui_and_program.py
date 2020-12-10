@@ -29,7 +29,7 @@ def file_save():
     pickle.dump(a,f,protocol=2)
     f.close()
     listq=[str(NAME_PRO),str(ADDRESS_PRO),str(MOBILE_NO_PRO),str(ROOM_NO_PRO),str(PRICE_PRO)]
-    myVars={'A':NAME_PRO,"B":ADDRESS_PRO,"C":MOBILE_NO_PRO,"D":ROOM_NO_PRO,"E":PRICE_PRO } #former is myVars={}
+    
 
     fo=open("recipt.txt","w+") #Opens a file for writing and reading.
     for h in range(0,5):
