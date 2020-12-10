@@ -190,7 +190,7 @@ class save:
 
 # main
 
-
+import mainly
 
 
 while True:
@@ -205,12 +205,8 @@ while True:
 
 
     if k == "1":
-        a = GUEST()
+        a = mainly.GUEST
         f = open("hotel.dat", "ab")
-        a.enter()
-        a.tor()
-        a.payment_option()
-        a.bill()
         pickle.dump(a, f,protocol=2)
         f.close()
 
