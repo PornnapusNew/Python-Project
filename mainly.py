@@ -66,9 +66,9 @@ class FindMyLocker:
 
         self.Button2 = tk.Button(self.Frame1)
         self.Button2.place(relx=0.18, rely=0.17, height=103, width=566)
-        self.Button2.configure(activebackground="#d9d9d9")
+        self.Button2.configure(activebackground="#AB6393")
         self.Button2.configure(activeforeground="#000000")
-        self.Button2.configure(background="#d9d9d9")
+        self.Button2.configure(background="#AB6393")
         self.Button2.configure(disabledforeground="#bfbfbf")
         self.Button2.configure(font=font14)
         self.Button2.configure(foreground="#000000")
@@ -81,9 +81,9 @@ class FindMyLocker:
 
         self.Button3 = tk.Button(self.Frame1)
         self.Button3.place(relx=0.18, rely=0.33, height=93, width=566)
-        self.Button3.configure(activebackground="#d9d9d9")
+        self.Button3.configure(activebackground="#9C8ADE")
         self.Button3.configure(activeforeground="#000000")
-        self.Button3.configure(background="#d9d9d9")
+        self.Button3.configure(background="#9C8ADE")
         self.Button3.configure(disabledforeground="#bfbfbf")
         self.Button3.configure(font=font14)
         self.Button3.configure(foreground="#000000")
