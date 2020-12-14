@@ -40,27 +40,9 @@ class save:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import sys
 
 import tkinter as tk
-
-
-
 
 
 class LOCKER_checkin:
@@ -80,8 +62,8 @@ class LOCKER_checkin:
 
         root.geometry("780x541+504+123")
         root.title("FIND MY LOCKER")
-        root.configure(background="#ffffff")
-        root.configure(highlightbackground="#ffffff")
+        root.configure(background="#cfdd8e") #lime green
+        root.configure(highlightbackground="#cfdd8e")
         root.configure(highlightcolor="black")
 
 
@@ -93,8 +75,8 @@ class LOCKER_checkin:
         self.Labelframe1.configure(font=font11)
         self.Labelframe1.configure(foreground="black")
         self.Labelframe1.configure(text='''LIST OF ALL GUEST''')
-        self.Labelframe1.configure(background="#ffffff")
-        self.Labelframe1.configure(highlightbackground="#ffffff")
+        self.Labelframe1.configure(background="#b1d3c5")#Mint green
+        self.Labelframe1.configure(highlightbackground="#b1d3c5")
         self.Labelframe1.configure(highlightcolor="black")
         self.Labelframe1.configure(width=760)
 

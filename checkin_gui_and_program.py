@@ -7,7 +7,6 @@
 import os
 #operating systems are a collection of functions that causes the running process to be
 #  completely replaced by the program passed as an argument to the function.
-#New
 import pickle
 import sys
 import os
@@ -37,9 +36,6 @@ def file_save():
     fo.close()
     call(["python", "recipt.py"])
     restart_program()
-
-
-
 
 
 
@@ -319,8 +315,8 @@ class LOCKER_checkin:
 
         root.geometry("1069x742")
         root.title("FIND MY LOCKER")
-        root.configure(background="#ffffff")
-        root.configure(highlightbackground="#ffffff")
+        root.configure(background="#FFD6AA") #BRICK ORANGE
+        root.configure(highlightbackground="#FFD6AA")
         root.configure(highlightcolor="black")
 
         self.Text1 = tk.Text(root)
@@ -341,37 +337,37 @@ class LOCKER_checkin:
         self.Frame1.configure(relief=tk.GROOVE)
         self.Frame1.configure(borderwidth="2")
         self.Frame1.configure(relief=tk.GROOVE)
-        self.Frame1.configure(background="#ffffff")
-        self.Frame1.configure(highlightbackground="#ffffff")
+        self.Frame1.configure(background="#FEF5D4") #LIGHT YELLOW
+        self.Frame1.configure(highlightbackground="#FEF5D4")
         self.Frame1.configure(highlightcolor="black")
         self.Frame1.configure(width=995)
 
         self.Message1 = tk.Message(self.Frame1)
         self.Message1.place(relx=0.04, rely=0.11, relheight=0.84, relwidth=0.5)
-        self.Message1.configure(background="#ffffff")
+        self.Message1.configure(background="#FEF5D4")
         self.Message1.configure(font=font11)
         self.Message1.configure(foreground="#000000")
-        self.Message1.configure(highlightbackground="#ffffff")
+        self.Message1.configure(highlightbackground="#FEF5D4")
         self.Message1.configure(highlightcolor="black")
         self.Message1.configure(text='''YOU CLICKED ON''')
         self.Message1.configure(width=496)
 
         self.Message2 = tk.Message(self.Frame1)
         self.Message2.place(relx=0.52, rely=0.19, relheight=0.74, relwidth=0.07)
-        self.Message2.configure(background="#ffffff")
+        self.Message2.configure(background="#FEF5D4")
         self.Message2.configure(font=font11)
         self.Message2.configure(foreground="#000000")
-        self.Message2.configure(highlightbackground="#ffffff")
+        self.Message2.configure(highlightbackground="#FEF5D4")
         self.Message2.configure(highlightcolor="black")
         self.Message2.configure(text=''':''')
         self.Message2.configure(width=66)
 
         self.Message3 = tk.Message(self.Frame1)
         self.Message3.place(relx=0.57, rely=0.11, relheight=0.79, relwidth=0.35)
-        self.Message3.configure(background="#ffffff")
+        self.Message3.configure(background="#FEF5D4")
         self.Message3.configure(font=font11)
         self.Message3.configure(foreground="#000000")
-        self.Message3.configure(highlightbackground="#ffffff")
+        self.Message3.configure(highlightbackground="#FEF5D4")
         self.Message3.configure(highlightcolor="black")
         self.Message3.configure(text='''CHECK-IN''')
         self.Message3.configure(width=347)
@@ -639,9 +635,9 @@ class LOCKER_checkin:
 
         self.Button1 = tk.Button(self.Frame2)
         self.Button1.place(relx=0.91, rely=0.05, height=33, width=43)
-        self.Button1.configure(activebackground="#ffffff")
+        self.Button1.configure(activebackground="#98AFC7")
         self.Button1.configure(activeforeground="#000000")
-        self.Button1.configure(background="#ffffff")
+        self.Button1.configure(background="#98AFC7")
         self.Button1.configure(disabledforeground="#bfbfbf")
         self.Button1.configure(foreground="#000000")
         self.Button1.configure(highlightbackground="#ffffff")
@@ -652,9 +648,9 @@ class LOCKER_checkin:
 
         self.Button2 = tk.Button(self.Frame2)
         self.Button2.place(relx=0.91, rely=0.18, height=33, width=43)
-        self.Button2.configure(activebackground="#ffffff")
+        self.Button2.configure(activebackground="#98AFC7")
         self.Button2.configure(activeforeground="#000000")
-        self.Button2.configure(background="#ffffff")
+        self.Button2.configure(background="#98AFC7")
         self.Button2.configure(disabledforeground="#bfbfbf")
         self.Button2.configure(foreground="#000000")
         self.Button2.configure(highlightbackground="#ffffff")
@@ -665,9 +661,9 @@ class LOCKER_checkin:
 
         self.Button3 = tk.Button(self.Frame2)
         self.Button3.place(relx=0.91, rely=0.31, height=33, width=43)
-        self.Button3.configure(activebackground="#ffffff")
+        self.Button3.configure(activebackground="#98AFC7") #Blue Gray
         self.Button3.configure(activeforeground="#000000")
-        self.Button3.configure(background="#ffffff")
+        self.Button3.configure(background="#98AFC7")
         self.Button3.configure(disabledforeground="#bfbfbf")
         self.Button3.configure(foreground="#000000")
         self.Button3.configure(highlightbackground="#ffffff")
@@ -678,9 +674,9 @@ class LOCKER_checkin:
 
         self.Button4 = tk.Button(self.Frame2)
         self.Button4.place(relx=0.76, rely=0.66, height=83, width=156)
-        self.Button4.configure(activebackground="#ffffff")
+        self.Button4.configure(activebackground="#B87333") #Copper
         self.Button4.configure(activeforeground="#000000")
-        self.Button4.configure(background="#ffffff")
+        self.Button4.configure(background="#B87333")
         self.Button4.configure(disabledforeground="#bfbfbf")
         self.Button4.configure(font=font16)
         self.Button4.configure(foreground="#000000")
@@ -722,9 +718,9 @@ class LOCKER_checkin:
 
         self.Button5 = tk.Button(self.Frame2)
         self.Button5.place(relx=0.91, rely=0.43, height=33, width=43)
-        self.Button5.configure(activebackground="#ffffff")
+        self.Button5.configure(activebackground="#98AFC7")
         self.Button5.configure(activeforeground="#000000")
-        self.Button5.configure(background="#ffffff")
+        self.Button5.configure(background="#98AFC7")
         self.Button5.configure(disabledforeground="#bfbfbf")
         self.Button5.configure(foreground="#000000")
         self.Button5.configure(highlightbackground="#ffffff")
