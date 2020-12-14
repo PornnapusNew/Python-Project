@@ -97,7 +97,7 @@ class Information:
 
         root.geometry("881x582+249+104")
         root.title("FIND MY LOCKER")
-        root.configure(background="#d9d9d9")
+        root.configure(background="#e2b3a3")
 
 
 
@@ -106,7 +106,7 @@ class Information:
         self.Frame1.configure(relief=tk.GROOVE)
         self.Frame1.configure(borderwidth="2")
         self.Frame1.configure(relief=tk.GROOVE)
-        self.Frame1.configure(background="#d9d9d9")
+        self.Frame1.configure(background="#eecfbb")
         self.Frame1.configure(width=825)
 
         self.Text1 = tk.Text(self.Frame1)
@@ -126,7 +126,7 @@ class Information:
 
         self.Label1 = tk.Label(self.Frame1)
         self.Label1.place(relx=0.12, rely=0.15, height=48, width=377)
-        self.Label1.configure(background="#d9d9d9")
+        self.Label1.configure(background="#eecfbb")
         self.Label1.configure(disabledforeground="#a3a3a3")
         self.Label1.configure(font=font9)
         self.Label1.configure(foreground="#000000")
@@ -147,7 +147,7 @@ class Information:
         self.Button1.place(relx=0.39, rely=0.29, height=74, width=197)
         self.Button1.configure(activebackground="#d9d9d9")
         self.Button1.configure(activeforeground="#000000")
-        self.Button1.configure(background="#d9d9d9")
+        self.Button1.configure(background="#a3b6c5")
         self.Button1.configure(disabledforeground="#a3a3a3")
         self.Button1.configure(font=font10)
         self.Button1.configure(foreground="#000000")
@@ -160,7 +160,7 @@ class Information:
 
         self.Message1 = tk.Message(self.Frame1)
         self.Message1.place(relx=0.22, rely=0.02, relheight=0.12, relwidth=0.56)
-        self.Message1.configure(background="#d9d9d9")
+        self.Message1.configure(background="#eecfbb")
         self.Message1.configure(font=font11)
         self.Message1.configure(foreground="#000000")
         self.Message1.configure(highlightbackground="#d9d9d9")

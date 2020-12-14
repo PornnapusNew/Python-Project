@@ -106,8 +106,8 @@ class CheckOut:
 
         root.geometry("1011x750")
         root.title("FIND MY LOCKER")
-        root.configure(background="#ffffff")
-        root.configure(highlightbackground="#ffffff")
+        root.configure(background="#6698FF") #light turquiose
+        root.configure(highlightbackground="#83b1c9")
         root.configure(highlightcolor="black")
 
 
@@ -117,7 +117,7 @@ class CheckOut:
         self.Frame1.configure(relief=tk.GROOVE)
         self.Frame1.configure(borderwidth="2")
         self.Frame1.configure(relief=tk.GROOVE)
-        self.Frame1.configure(background="#ffffff")
+        self.Frame1.configure(background="#82CAFF")
         self.Frame1.configure(highlightbackground="#ffffff")
         self.Frame1.configure(highlightcolor="black")
         self.Frame1.configure(width=925)
@@ -126,7 +126,7 @@ class CheckOut:
         self.Label1.place(relx=0.14, rely=0.12, height=46, width=442)
         self.Label1.configure(activebackground="#ffffff")
         self.Label1.configure(activeforeground="black")
-        self.Label1.configure(background="#ffffff")
+        self.Label1.configure(background="#82CAFF")
         self.Label1.configure(disabledforeground="#bfbfbf")
         self.Label1.configure(font=font11)
         self.Label1.configure(foreground="#000000")
@@ -171,7 +171,7 @@ class CheckOut:
         self.Button1.place(relx=0.34, rely=0.28, height=93, width=286)
         self.Button1.configure(activebackground="#ffffff")
         self.Button1.configure(activeforeground="#000000")
-        self.Button1.configure(background="#ffffff")
+        self.Button1.configure(background="#98AFC7") #Blue Gray
         self.Button1.configure(disabledforeground="#bfbfbf")
         self.Button1.configure(font=font12)
         self.Button1.configure(foreground="#000000")
