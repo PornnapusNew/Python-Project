@@ -33,7 +33,7 @@ class FindMyLocker:
 
         root.geometry("963x749+540+110")
         root.title("FIND MY LOCKER")
-        root.configure(background="#FFFDE7")
+        root.configure(background="#D1D0CE")
         root.configure(highlightbackground="#d9d9d9")
         root.configure(highlightcolor="black")
 
@@ -49,14 +49,14 @@ class FindMyLocker:
         self.Frame1.configure(relief=tk.GROOVE)
         self.Frame1.configure(borderwidth="2")
         self.Frame1.configure(relief=tk.GROOVE)
-        self.Frame1.configure(background="#E5E4E2")
+        self.Frame1.configure(background="#E5E4E2") #Gray
         self.Frame1.configure(highlightbackground="#d9d9d9")
         self.Frame1.configure(highlightcolor="black")
         self.Frame1.configure(width=1000)
 
         self.Message6 = tk.Message(self.Frame1)
         self.Message6.place(relx=0.09, rely=0.01, relheight=0.15, relwidth=0.86)
-        self.Message6.configure(background="#FFEFCB")
+        self.Message6.configure(background="#E5E4E2")
         self.Message6.configure(font=font16)
         self.Message6.configure(foreground="#000000")
         self.Message6.configure(highlightbackground="#d9d9d9")
