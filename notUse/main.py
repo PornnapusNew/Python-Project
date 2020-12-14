@@ -190,7 +190,7 @@ class save:
 
 # main
 
-import mainly
+#import mainly
 
 
 while True:
@@ -202,14 +202,14 @@ while True:
     print("5) EXIT")
     k = input("Enter choice:")
 
-
-
+    
+    #this part will be able to execute when connected with mainly
     if k == "1":
-        a = mainly.GUEST
+        #a = mainly.GUEST
         f = open("hotel.dat", "ab")
-        pickle.dump(a, f,protocol=2)
+        #pickle.dump(a, f,protocol=2)
         f.close()
-
+    
 
 
 
