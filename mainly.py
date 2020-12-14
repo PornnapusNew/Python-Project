@@ -43,13 +43,13 @@ class FindMyLocker:
         root.configure(menu = self.menubar)
 
 
-
+        
         self.Frame1 = tk.Frame(root)
         self.Frame1.place(relx=0.02, rely=0.03, relheight=0.94, relwidth=0.96)
         self.Frame1.configure(relief=tk.GROOVE)
         self.Frame1.configure(borderwidth="2")
         self.Frame1.configure(relief=tk.GROOVE)
-        self.Frame1.configure(background="#FFEFCB")
+        self.Frame1.configure(background="#E5E4E2")
         self.Frame1.configure(highlightbackground="#d9d9d9")
         self.Frame1.configure(highlightcolor="black")
         self.Frame1.configure(width=1000)
@@ -66,9 +66,9 @@ class FindMyLocker:
 
         self.Button2 = tk.Button(self.Frame1)
         self.Button2.place(relx=0.18, rely=0.17, height=103, width=566)
-        self.Button2.configure(activebackground="#AB6393")
+        self.Button2.configure(activebackground="#adddce")
         self.Button2.configure(activeforeground="#000000")
-        self.Button2.configure(background="#AB6393")
+        self.Button2.configure(background="#adddce")
         self.Button2.configure(disabledforeground="#bfbfbf")
         self.Button2.configure(font=font14)
         self.Button2.configure(foreground="#000000")
