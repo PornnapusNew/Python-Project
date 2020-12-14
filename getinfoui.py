@@ -50,9 +50,9 @@ class Information:
             print(self.gettininfo)
             print("\n")
             if self.gettininfo.isdigit() == True and len(self.gettininfo) != 0:
-                self.Text1.insert(tk.INSERT, " Valid room number ""\n")
+                self.Text1.insert(tk.INSERT, " Valid locker number ""\n")
             else :
-                self.Text1.insert(tk.INSERT,"Invalid room number""\n")
+                self.Text1.insert(tk.INSERT,"Invalid locker number""\n")
 
             try:
                 n = 0
