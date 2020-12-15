@@ -132,7 +132,7 @@ class CheckOut:
         self.Label1.configure(foreground="#000000")
         self.Label1.configure(highlightbackground="#ffffff")
         self.Label1.configure(highlightcolor="black")
-        self.Label1.configure(text='''ENTER THE ROOM NO.   :''')
+        self.Label1.configure(text='''ENTER THE LOCKER NO.   :''')
 
         self.Entry1 = tk.Entry(self.Frame1)
         self.data=tk.StringVar()
