@@ -121,7 +121,7 @@ class LOCKER_checkin:
 
                 self.l = str(self.days.get())
 
-                if self.l.isdigit() == True and len(self.l) != 0:
+                if self.l.isdigit() == True and len(self.l) != 0 and eval(self.l)>=0 :
                     self.DAYS = int(self.l)
                     self.Text1.insert(tk.INSERT, "Days has been inputed""\n")
                     break
