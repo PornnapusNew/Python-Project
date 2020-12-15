@@ -27,7 +27,7 @@ NAME :  %s
 ADDRESS :  %s
 MOBILE NO. :  %s
 YOUR TOTAL BILL IS :  %s
-YOUR ROOM NUMBER IS  %s    
+YOUR LOCKER NUMBER IS  %s    
      
      
      
