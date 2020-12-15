@@ -19,18 +19,18 @@ def file_save():
     ROOM_NO_PRO = details_list[3]
     PRICE_PRO = details_list[4]
     f = open("hotel.dat", "ab") #Opens a file for appending in binary mode.
-    a=save(NAME_PRO,ADDRESS_PRO,MOBILE_NO_PRO,ROOM_NO_PRO,PRICE_PRO)
+    a=save(NAME_PRO,ADDRESS_PRO,MOBILE_NO_PRO,ROOM_NO_PRO,PRICE_PRO) #save()is class below that save info
     pickle.dump(a,f,protocol=2)
     f.close()
     listq=[str(NAME_PRO),str(ADDRESS_PRO),str(MOBILE_NO_PRO),str(ROOM_NO_PRO),str(PRICE_PRO)]
     
 
     fo=open("recipt.txt","w+") #Opens a file for writing and reading.
-    for h in range(0,5):
-        fo.write(listq[h]+"\r\n")
+    for h in range(0,5): # 5 lines to print out in recipt file
+        fo.write(listq[h]+"\r\n") #\r\n is to enter new line in in every program 
     fo.close()
     call(["python", "recipt.py"])
-    restart_program()
+    restart_program() #restart everytime when the latest user check in
 
 
 
@@ -80,7 +80,7 @@ class LOCKER_checkin:
                 self.k = str(self.name.get())
 
                 a = self.k.isdigit()
-                if len(self.k) != 0 and a != True:
+                if len(self.k) != 0 and a != True: #chk that name is string
                     self.NAME=self.k
                     self.Text1.insert(tk.INSERT, "Name has been inputed""\n")
                     break
@@ -91,7 +91,7 @@ class LOCKER_checkin:
 
         def chk_add():
             while True:
-                self.g = str(self.addr.get())
+                self.g = str(self.addr.get()) #self.addr is tk.StringVar() at entry5
 
 
                 ak = self.g.isdigit()
@@ -137,24 +137,24 @@ class LOCKER_checkin:
 
         def tor(self):
 
-            if self.ch == 1:
+            if self.ch == 1: #small
                 self.price = self.price + (150 * self.no_of_days)
                 m[0] = 1
-            elif self.ch == 2:
+            elif self.ch == 2: #medium
                 self.price = self.price + (200 * self.no_of_days)
                 m[0] = 2
-            elif self.ch == 3:
+            elif self.ch == 3: #large
                 self.price = self.price + (250 * self.no_of_days)
                 m[0] = 3
-            elif self.ch == 4:
+            elif self.ch == 4: #x-tra large
                 self.price = self.price + (300 * self.no_of_days)
                 m[0] = 4
 
         def payment_option(self):
             op = self.p
-            if op == 1:
+            if op == 1: # By cash
                 self.Text1.insert(tk.INSERT, "No discount""\n")
-            elif op == 2:
+            elif op == 2:# By credit card
                 self.price = self.price - ((self.price * 10) / 100)
                 self.Text1.insert(tk.INSERT, "10%_discount""\n")
 
@@ -182,7 +182,7 @@ class LOCKER_checkin:
             except EOFError:
                 pass
 
-            for r in a:
+            for r in a: #chk the room number if it's already use or not
                 if r not in G:
                     self.room = r
                     break
@@ -200,7 +200,7 @@ class LOCKER_checkin:
 
 
 
-            file_save()
+            file_save() #call function 
 
 
 
@@ -314,7 +314,7 @@ class LOCKER_checkin:
         root.configure(highlightbackground="#FFD6AA")
         root.configure(highlightcolor="black")
 
-        self.Text1 = tk.Text(root)
+        self.Text1 = tk.Text(root) #output at the bottom of gui
         self.Text1.place(relx=0.03, rely=0.65, relheight=0.29, relwidth=0.93)
         self.Text1.configure(background="white")
         self.Text1.configure(font=font10)
@@ -409,7 +409,7 @@ class LOCKER_checkin:
 
 
         self.Entry3 = tk.Entry(self.Frame2)
-        self.name=tk.StringVar()
+        self.name=tk.StringVar() #obtain value from string
         self.Entry3.place(relx=0.47, rely=0.05,height=34, relwidth=0.43)
         self.Entry3.configure(background="white")
         self.Entry3.configure(disabledforeground="#bfbfbf")
