@@ -49,7 +49,7 @@ class Information:
             self.gettininfo = str(self.gather.get())
             print(self.gettininfo)
             print("\n")
-            if self.gettininfo.isdigit() == True and len(self.gettininfo) != 0 and eval(self.gettininfo) <= 50:
+            if self.gettininfo.isdigit() == True and len(self.gettininfo) != 0 and 0< eval(self.gettininfo) <= 50:
                 self.Text1.insert(tk.INSERT, " Valid locker number ""\n")
             else :
                 self.Text1.insert(tk.INSERT,"Invalid locker number""\n")
