@@ -56,7 +56,7 @@ class CheckOut:
             print(self.rom)
             print("\n")
             if self.rom.isdigit() == True and len(self.rom) != 0:
-                self.Text1.insert(tk.INSERT, " valid room number ""\n")
+                self.Text1.insert(tk.INSERT, " Valid room number ""\n")
                 v = int(self.rom)
                 f = open("hotel.dat", "rb")
                 f1 = open("hote.dat", "ab")
