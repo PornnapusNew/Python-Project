@@ -594,7 +594,7 @@ class LOCKER_checkin:
         self.Checkbutton5 = tk.Checkbutton(self.Frame2)
         self.var5 = tk.IntVar()
         self.Checkbutton5.place(relx=0.485, rely=0.89, relheight=0.1
-                                , relwidth=0.3)
+                                , relwidth=0.4)
         self.Checkbutton5.configure(activebackground="#ffffff")
         self.Checkbutton5.configure(activeforeground="#000000")
         self.Checkbutton5.configure(background="#ffffff")
@@ -604,7 +604,7 @@ class LOCKER_checkin:
         self.Checkbutton5.configure(highlightbackground="#ffffff")
         self.Checkbutton5.configure(highlightcolor="black")
         self.Checkbutton5.configure(justify=tk.LEFT)
-        self.Checkbutton5.configure(text='''By credit/debit card''')
+        self.Checkbutton5.configure(text='''By credit/debit card 10%_Discount''')
         self.Checkbutton5.configure(variable=self.var5)
 
         self.Checkbutton6 = tk.Checkbutton(self.Frame2)
