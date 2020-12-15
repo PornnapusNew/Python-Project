@@ -85,7 +85,7 @@ class CheckOut:
                 os.rename("hote.dat", "hotel.dat")
 
             else:
-                self.Text1.insert(tk.INSERT, "Invalid input please input a valid ROOM NO.""\n")
+                self.Text1.insert(tk.INSERT, "Invalid input please input a valid LOCKER NO.""\n")
 
         root = tk.Tk()
         '''This class configures and populates the toplevel window.
