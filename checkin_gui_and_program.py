@@ -521,7 +521,7 @@ class LOCKER_checkin:
         self.Checkbutton1 = tk.Checkbutton(self.Frame2)
         self.var1 = tk.IntVar()
         self.Checkbutton1.place(relx=0.15, rely=0.58, relheight=0.17
-                , relwidth=0.14)
+                , relwidth=0.18)
         self.Checkbutton1.configure(activebackground="#ffffff")
         self.Checkbutton1.configure(activeforeground="#000000")
         self.Checkbutton1.configure(background="#ffffff")
@@ -531,7 +531,7 @@ class LOCKER_checkin:
         self.Checkbutton1.configure(highlightbackground="#ffffff")
         self.Checkbutton1.configure(highlightcolor="black")
         self.Checkbutton1.configure(justify=tk.LEFT)
-        self.Checkbutton1.configure(text='''SMALL''')
+        self.Checkbutton1.configure(text='''SMALL (150/D)''')
         self.Checkbutton1.configure(variable=self.var1)
 
 
@@ -540,24 +540,24 @@ class LOCKER_checkin:
 
         self.Checkbutton2 = tk.Checkbutton(self.Frame2)
         self.var2 = tk.IntVar()
-        self.Checkbutton2.place(relx=0.13, rely=0.72, relheight=0.11
-                , relwidth=0.21)
+        self.Checkbutton2.place(relx=0.14, rely=0.72, relheight=0.11
+                , relwidth=0.22)
         self.Checkbutton2.configure(activebackground="#ffffff")
         self.Checkbutton2.configure(activeforeground="#000000")
         self.Checkbutton2.configure(background="#ffffff")
         self.Checkbutton2.configure(disabledforeground="#bfbfbf")
-        self.Checkbutton2.configure(font=font13)
+        self.Checkbutton2.configure(font=font14)
         self.Checkbutton2.configure(foreground="#000000")
         self.Checkbutton2.configure(highlightbackground="#ffffff")
         self.Checkbutton2.configure(highlightcolor="black")
         self.Checkbutton2.configure(justify=tk.LEFT)
-        self.Checkbutton2.configure(text='''MEDIUM''')
+        self.Checkbutton2.configure(text='''MEDIUM (200/D)''')
         self.Checkbutton2.configure(variable=self.var2)
 
         self.Checkbutton3 = tk.Checkbutton(self.Frame2)
         self.var3 = tk.IntVar()
         self.Checkbutton3.place(relx=0.5, rely=0.6, relheight=0.11
-                , relwidth=0.16)
+                , relwidth=0.20)
         self.Checkbutton3.configure(activebackground="#ffffff")
         self.Checkbutton3.configure(activeforeground="#000000")
         self.Checkbutton3.configure(background="#ffffff")
@@ -567,13 +567,13 @@ class LOCKER_checkin:
         self.Checkbutton3.configure(highlightbackground="#ffffff")
         self.Checkbutton3.configure(highlightcolor="black")
         self.Checkbutton3.configure(justify=tk.LEFT)
-        self.Checkbutton3.configure(text='''LARGE''')
+        self.Checkbutton3.configure(text='''LARGE (250/D)''')
         self.Checkbutton3.configure(variable=self.var3)
 
         self.Checkbutton4 = tk.Checkbutton(self.Frame2)
         self.var4 = tk.IntVar()
-        self.Checkbutton4.place(relx=0.52, rely=0.71, relheight=0.11
-                , relwidth=0.12)
+        self.Checkbutton4.place(relx=0.51, rely=0.71, relheight=0.11
+                , relwidth=0.18)
         self.Checkbutton4.configure(activebackground="#ffffff")
         self.Checkbutton4.configure(activeforeground="#000000")
         self.Checkbutton4.configure(background="#ffffff")
@@ -583,7 +583,7 @@ class LOCKER_checkin:
         self.Checkbutton4.configure(highlightbackground="#ffffff")
         self.Checkbutton4.configure(highlightcolor="black")
         self.Checkbutton4.configure(justify=tk.LEFT)
-        self.Checkbutton4.configure(text='''X-TRA''')
+        self.Checkbutton4.configure(text='''X-TRA (300/D)''')
         self.Checkbutton4.configure(variable=self.var4)
 
         self.Checkbutton5 = tk.Checkbutton(self.Frame2)
