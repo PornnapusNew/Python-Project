@@ -72,7 +72,7 @@ class Information:
                         print("THE TOTAL BILL IS ", s.price)
                     elif EOFError:
                         if n == 0:
-                            print("NO GUEST IN ROOM ", self.gettininfo)
+                            print("NO ONE USE THE LOCKER ", self.gettininfo)
                         else:
                             n = 0
                             continue
